@@ -1,0 +1,46 @@
+using System;
+
+namespace Project
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Поиск площади круга:
+            // System.Console.Write("Введите радиус круга : ");
+            // short radius = Convert.ToInt16(Console.ReadLine());
+            // double area = Math.Pow(radius,2) * Math.PI;
+            // System.Console.WriteLine("Площадь круга с радиусом {0} равна {1}", radius, Math.Round(area));
+            
+            // Вход в учётную запись:
+            // System.Console.Write("Entry your role: ");
+            // string role = Console.ReadLine();
+            // if (role == "admin") {
+            //     System.Console.Write("Entry {0} name: ", role);
+            //     string name = Console.ReadLine();
+            //     if (name == "Adam"){
+            //         System.Console.WriteLine("Entry successfull");
+            //     } else{
+            //         System.Console.WriteLine("Entry failed");
+            //     } 
+            // } else if  (role == "noob") {
+            //     System.Console.WriteLine("Go OUT nooooob!");
+            // } else {
+            //     System.Console.WriteLine("Your BuBuNeDDD");
+            // }
+
+
+        }
+
+
+
+
+        
+        public static void Print(string word){
+            System.Console.WriteLine(word);
+        }
+
+
+
+    }
+}
